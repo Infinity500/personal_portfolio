@@ -1,0 +1,1 @@
+This is the Safety Leaderboard for First Robotics Team 662 created using the [Next.js](https://nextjs.org) template bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
