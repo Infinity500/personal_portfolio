@@ -572,7 +572,8 @@ export default function Page() {
           <span className="nav-name">ARYAN TUTEJA</span>
         </a>
         <ul className="nav-right">
-          <li><a href="#work">Research</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="/research">Research</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
