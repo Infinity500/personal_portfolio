@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Safety Leaderboard",
-  description: "By Rocky Mountain Robotics",
+  title: "Aryan Tuteja",
+  description: "Personal Portfolio",
 };
 
 export default function RootLayout({

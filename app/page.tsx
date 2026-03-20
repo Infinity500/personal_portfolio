@@ -8,9 +8,9 @@ const PROJECTS = [
     title: "EcoIdentify",
     year: "2024",
     role: "Founder & Lead Engineer",
-    desc: "Built a full automated recycling bin with 8 engineers using a ViT vision model at 96% accuracy. Sorted 5lbs of waste in week one. Featured on CBS KKTV11, Fox21, and the Gazette.",
+    desc: "Built a full automated recycling bin with 8 engineers using a machine vision model. Sorted 5lbs of waste in just one week.",
     tags: ["Raspberry Pi", "Roboflow", "TensorFlow", "Python"],
-    link: "https://lnkd.in/d8GHfXBC",
+    link: "https://ecoclimsolutions.wordpress.com/ecoidentifyv2-0/",
     big: true,
   },
   {
@@ -18,18 +18,18 @@ const PROJECTS = [
     title: "Mars Aerobraking Sim",
     year: "2024-25",
     role: "Student Researcher · UCCS",
-    desc: "Collaborated with Dr. Lynnane George to simulate crewed Mars surface insertion via aerobraking using MarsGRAM + RK4 propagator. Real Martian atmospheric data.",
+    desc: "Collaborated with Dr. Lynnane George to simulate crewed Mars surface insertion via aerobraking using MarsGRAM and a RK4 propagator.",
     tags: ["Python", "MarsGRAM", "RK4", "Aerospace"],
-    link: "https://github.com",
-    big: false,
+    link: "https://github.com/Infinity500/Aerobraking-Research",
+    big: true,
   },
   {
     num: "003",
     title: "Topicly",
     year: "2022-Now",
     role: "Founder",
-    desc: "Started after being quoted $6,000 to work with a researcher. Built a platform connecting 32+ students across 9 countries with 6+ professors, for free.",
-    tags: ["Research", "EdTech", "Community"],
+    desc: "Today, more than 64 million research papers have been published, yet access to this research remains limited. Topicly, an organization that initially started as a STEM magazine website, has today turned into a full-fl fledged research platform.",
+    tags: ["Research", "Community"],
     link: "https://topiclyorg.wordpress.com",
     big: true,
   },
@@ -593,30 +593,17 @@ export default function Page() {
           </h1>
           <div className={`hero-tagline ${loaded ? "in" : ""}`}>
             <p>
-              I dismantle things to understand them -<br />
-              then build something better. From toy blenders<br />
-              to Mars simulations, the question never changes:<br />
+              I dismantle things to understand them.<br />
+              Then build something better.<br />
+              But through every project. <br />
+              The question remains the same:<br />
               <em>What if?</em>
             </p>
-            <div className="hero-stats">
-              <div className="stat-item">
-                <div className="stat-n">96%</div>
-                <div className="stat-l">AI accuracy</div>
-              </div>
-              <div className="stat-item">
-                <div className="stat-n">32+</div>
-                <div className="stat-l">students<br />connected</div>
-              </div>
-              <div className="stat-item">
-                <div className="stat-n">9</div>
-                <div className="stat-l">countries<br />reached</div>
-              </div>
             </div>
-          </div>
         </div>
         <div className={`hero-footer ${loaded ? "in" : ""}`}>
           <div className="hero-tags-row">
-            {["EE Semiconductors", "FIRST Robotics", "Speech & Debate Nationals", "Poet", "Avid Dismantler"].map(t => (
+            {["Electrical Engineering", "FIRST Robotics", "Speech & Debate"].map(t => (
               <span key={t} className="hero-tag-pill">{t}</span>
             ))}
           </div>
@@ -630,7 +617,7 @@ export default function Page() {
       <div className="divider" id="work">
         <div className="div-label">Research</div>
         <div className="div-line" />
-        <div className="div-label">{String(PROJECTS.length).padStart(2,"0")} projects</div>
+        <div className="div-label">{String(PROJECTS.length).padStart(2)} projects</div>
       </div>
       <section className="projects">
         <div className="proj-grid">
@@ -680,31 +667,28 @@ export default function Page() {
             <h3>The Full Picture</h3>
             <div className="about-body">
               <p>
-                I'm a <strong>senior at Discovery Canyon Campus</strong> in Colorado Springs. In 7th grade
-                I dismantled my sister's toy blenders to build a windmill. Discovered the world
-                already calls it a fan. That didn't stop me.
+                I'm a <strong>senior at Discovery Canyon Campus</strong> As soon as I heard the $6,000 price tag to work with a university researcher,
+                I looked for solutions. Eventually, I built Topicly instead. Now connecting 32+ students from 9 countries with professors, for free.
+                That's the kind of barrier I enjoy tearing down.
               </p>
               <p>
-                After being quoted <strong>$6,000 to work with a university researcher</strong>, I built Topicly
-                instead. Now connecting 32+ students from 9 countries with professors, for free.
-                That's the kind of wall I enjoy tearing down.
+                My mission is to <strong>make research accessible, and allow everyone to transform theoretical ideas into reality</strong>. 
+                I'm also always eager to learn and grow, continuously seeking out new opportunities to expand my knowledge. 
               </p>
               <p>
-                I do <strong>aerospace research</strong> simulating crewed Mars landings, <strong>cybersecurity research</strong> on
-                satellite vulnerabilities, captain safety for a <span className="elec">FIRST Robotics</span> team,
-                and compete at <strong>Speech & Debate Nationals</strong>. I also write poetry.
-                Curiosity doesn't stay in one lane.
+                In my freetime, you can find me at <strong>an aerospace research lab</strong> simulating crewed Mars landings, <strong>a cybersecurity research lab</strong> workingon
+                satellite vulnerabilities, <span className="elec">a FIRST Robotics competition</span> leading safety and training, or
+                <strong>a Speech & Debate round</strong> competing in International Extemporaneous speaking.
               </p>
               <p>
                 Aspiring <strong>electrical engineer</strong>, fascinated by semiconductors, photovoltaics,
-                and quantum computing. Also identified with Tungsten on the periodic table:
-                melts at 3,422°C, never bends under pressure.
+                and quantum computing.
               </p>
             </div>
             <div className="skills-wrap">
               <div className="skills-label">Technical Stack</div>
               <div className="skills-list">
-                {["React","Next.js","TypeScript","Python","TensorFlow","Roboflow","Node.js","Raspberry Pi","MarsGRAM","JPL Horizons","Streamlit","Git","Figma","Breadboarding"].map(s => (
+                {["React","Next.js","Python","TensorFlow","Roboflow","Raspberry Pi","MarsGRAM","JPL Horizons","Streamlit","Git","Breadboarding"].map(s => (
                   <span key={s} className="skill">{s}</span>
                 ))}
               </div>
@@ -750,7 +734,6 @@ export default function Page() {
           <p className="contact-note">
             Open to internships, research collaborations,<br />
             and conversations about hard problems.<br />
-            Based in Colorado Springs, available remotely.<br /><br />
             The problems worth solving are never the easy ones.
           </p>
         </div>
@@ -768,9 +751,9 @@ export default function Page() {
               <span className="cl-label">Topicly</span>
               topiclyorg.wordpress.com
             </a>
-            <a href="https://github.com" target="_blank" rel="noreferrer" className="contact-link">
+            <a href="https://github.com/Infinity500" target="_blank" rel="noreferrer" className="contact-link">
               <span className="cl-label">GitHub</span>
-              github.com/aryan
+              github.com/Infinity500
             </a>
           </div>
           <p className="contact-note">
@@ -781,7 +764,7 @@ export default function Page() {
       </section>
 
       <footer>
-        <p>© 2026 Aryan Tuteja, Built with Next.js & deployed on Vercel</p>
+        <p>© 2026 Aryan Tuteja, MIT LICENSE</p>
         <span className="footer-sig">What if?</span>
       </footer>
     </>
