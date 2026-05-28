@@ -10,9 +10,9 @@ const IB_WORK = [
     title: "Microsoft 365 Copilot and Enterprise Productivity",
     question: "To what extent has Microsoft's deployment of Microsoft 365 Copilot impacted the organization and productivity for global enterprise consumers?",
     words: "3,951",
-    desc: "An analysis of AI-driven productivity at enterprise scale. Examines individual cognitive gains, organizational implementation challenges, SWOT analysis, revenue growth trajectory, and shifts in investor confidence across Microsoft's global consumer base.",
+    desc: "This was an analysis of productivity achieved by generative artificial intelligence at enterprise scale. It looked at individual employee gains, organizational challenges, and revenue growth trajectory across Microsoft's consumers.",
     sections: ["Individual Productivity Gains", "Enterprise Scale Implementation", "SWOT Analysis", "Revenue Growth & Market Position", "Investor Confidence"],
-    link: "",
+    link: "https://drive.google.com/file/d/1yJ3qIQDkIDHHMqsTrO8ZW9FO7DRlOsq4/view?usp=sharing",
   },
   {
     num: "002",
@@ -20,21 +20,21 @@ const IB_WORK = [
     subject_area: "Language & Literature HL",
     title: "Identity Under Oppression in Maus",
     question: "How and to what extent does Art Spiegelman utilize fragmentation, motifs, and personification in Maus: A Survivor's Tale to illustrate the removal of cultural, social, and personal identities under an oppressive regime?",
-    words: "1,471",
-    desc: "A close literary analysis of Spiegelman's Pulitzer Prize-winning graphic novel. Investigates how visual fragmentation, recurring motifs, and animal personification expose the systematic erasure of Jewish identity under the Nazi regime.",
+    words: "1,457",
+    desc: "This paper was a close literary analysis of Spiegelman's graphic novel, which looked at how visual fragmentation, recurring motifs, and animal personification expose the removal of Jewish identity under the Nazi regime.",
     sections: ["Fragmentation", "Motifs", "Personification", "Cultural Identity", "Social Identity"],
-    link: "",
+    link: "https://drive.google.com/file/d/1hslAnLMLgAsyWUvBClaK1v7f5ierk02B/view?usp=sharing",
   },
   {
     num: "003",
     subject: "Mathematics IA",
     subject_area: "Mathematics AA SL",
     title: "Kinematics and Natural Phenomenon",
-    question: "Do kinematics equations accurately predict natural phenomenon?",
+    question: "Do kinematics equations accurately predict natural phenomena?",
     words: "3,651",
-    desc: "Inspired by Roger Federer's tennis mechanics, this IA investigates systematic discrepancies between kinematic predictions and real-world projectile motion times. Controlled experimentation quantifies estimation error and explores its implications for applied physics.",
+    desc: "This essay attempts to analyze discrepencies between kinematic predictions and natural occurances quantitatively.",
     sections: ["Kinematic Modeling", "Experimental Design", "Error Analysis", "Statistical Comparison"],
-    link: "",
+    link: "https://drive.google.com/file/d/1Z0R3p2DIyW24egOeiAtKy9JrnuMW1IyD/view?usp=sharing",
   },
   {
     num: "004",
@@ -43,9 +43,9 @@ const IB_WORK = [
     title: "Electrical Resistance and Temperature",
     question: "How is the electrical resistance of a copper coil influenced by changes in temperature?",
     words: "In progress",
-    desc: "An experimental investigation into how temperature affects the resistivity of copper conductors. Explores implications for precision electrical engineering, semiconductor design, and thermal performance of electrical devices.",
+    desc: "This was an experimental investigation into how temperature affects the resistivity of copper conductors. It explored implications for electrical engineering, and thermal performance of electrical devices.",
     sections: ["Resistance Theory", "Experimental Setup", "Temperature Variation", "Data Analysis"],
-    link: "",
+    link: "https://drive.google.com/file/d/1M6SeoZ9mIBP22V5psVkADL-Qh2B9D_zw/view?usp=sharing",
   },
   {
     num: "005",
@@ -54,9 +54,9 @@ const IB_WORK = [
     title: "Memory Recall Conditions",
     question: "To what extent does the type of memory recall condition impact the accuracy of memory retrieval among high school students?",
     words: "2,160",
-    desc: "A replication of Bahrick et al. (1975) investigating how free recall vs. cued recall conditions affect memory accuracy. Conducted with high school student participants, examining ecological validity and retrieval-induced forgetting.",
+    desc: "This essay was a replication of Bahrick et al. (1975) which investigating how free recall vs. cued recall conditions affect memory accuracy. It was conducted with high school student participants and examined ecological validity.",
     sections: ["Theory", "Replication Design", "Sample Characteristics", "Ethical Considerations", "Results"],
-    link: "",
+    link: "https://drive.google.com/file/d/1-yQE7D32P2Hw2VHKsv73YbjN-6d4uBBu/view?usp=sharing",
   },
   {
     num: "006",
@@ -65,9 +65,31 @@ const IB_WORK = [
     title: "Doubt and the Pursuit of Knowledge",
     question: "To what extent do you agree that doubt is central to the pursuit of knowledge?",
     words: "1,593",
-    desc: "Drawing on Descartes' methodological skepticism, this essay examines how rigorous doubt functions as a utility for establishing certainty and creating new knowledge across natural sciences and history.",
+    desc: "This essay uses Descartes' reasoning about doubt to look at how rigorous doubt is a tool to foster certainty and create new knowledge across natural sciences and history.",
     sections: ["Methodological Doubt", "Natural Sciences", "History", "Limits of Doubt"],
-    link: "",
+    link: "https://drive.google.com/file/d/1jkJQfZwuetNYMp3iFu6a2xD1SaPJZRUs/view?usp=sharing",
+  },
+  {
+    num: "007",
+    subject: "History IA",
+    subject_area: "History of the Americas HL",
+    title: "Impacts of Soviet Policy",
+    question: "To what extent did Stalin's First Five-Year Plan successfully modernize the Soviet Union between 1928 and 1932?",
+    words: "2,143",
+    desc: "This paper examined the effects of Soviet Economic Policy on eventual modernization and how it impacted the common individual at that time. It examined a multi-lateral perspective by looking at both Soviet released documents and American published articles.",
+    sections: ["Bias Elimination", "Official Document Compilation", "Ground-Zero Perspective"],
+    link: "https://drive.google.com/file/d/1itpB_r-F4QJfZhB_GW7MqCe2wFPn3nU7/view?usp=sharing",
+  },
+  {
+    num: "006",
+    subject: "Exhibition Essay",
+    subject_area: "Theory of Knowledge",
+    title: "Constraints on Knowledge",
+    question: "What constraints are there on the pursuit of knowledge? ",
+    words: "933",
+    desc: "This essay examines how technology, ethicality, and pre-existing beliefs foster constraints on knowledge.",
+    sections: ["Role of Knowledge", "Ethics", "Impacts of Technology", "Beliefs"],
+    link: "https://drive.google.com/file/d/1MxaySZftMKQvRH0-ijMRqjoV__bDS6v9/view?usp=sharing",
   },
 ];
 
@@ -281,12 +303,11 @@ export default function ResearchPage() {
         </ul>
       </nav>
 
-      {/* Hero */}
       <section className="hero">
         <div className="hero-watermark">RESEARCH</div>
         <div className={`hero-eyebrow ${loaded ? "in" : ""}`}>
           <span className="eyebrow-badge">IB Diploma Candidate</span>
-          Discovery Canyon Campus · Class of 2026
+          Discovery Canyon Campus (Class of 2026)
         </div>
         <h1 className={`hero-title ${loaded ? "in" : ""}`}>
           ACADEMIC<br />
@@ -294,16 +315,15 @@ export default function ResearchPage() {
           <span className="grad">AND INQUIRY</span>
         </h1>
         <p className={`hero-sub ${loaded ? "in" : ""}`}>
-          From orbital mechanics on Mars to memory retrieval in psychology,
-          from enterprise AI to the role of doubt in knowledge. Research is how I think.
+          I  love research because I want to push what's known a little further. 
+          For instance, what excites me isn't a transistor itself, but what the transistor makes possible.
         </p>
       </section>
 
-      {/* Aerospace */}
       <div className="divider" id="aerospace">
         <div className="div-label">University Research</div>
         <div className="div-line" />
-        <div className="div-label">Space Systems Lab · 2024-25</div>
+        <div className="div-label">Space Systems Lab (2023-25)</div>
       </div>
 
       <section className="aero-section">
@@ -316,7 +336,7 @@ export default function ResearchPage() {
             <div className="aero-meta">
               <div className="aero-meta-row">
                 <span className="aero-meta-label">Mentor</span>
-                <span className="aero-meta-val">Dr. Lynnane George, PhD<br />Associate Professor of Teaching, Mechanical and Aerospace Engineering</span>
+                <span className="aero-meta-val">Dr. Lynnane George<br />Associate Professor of Teaching, Mechanical and Aerospace Engineering</span>
               </div>
               <div className="aero-meta-row">
                 <span className="aero-meta-label">Location</span>
@@ -329,10 +349,6 @@ export default function ResearchPage() {
               <div className="aero-meta-row">
                 <span className="aero-meta-label">Duration</span>
                 <span className="aero-meta-val">5 hrs/week, June 1 to August 25 + independent work</span>
-              </div>
-              <div className="aero-meta-row">
-                <span className="aero-meta-label">Department</span>
-                <span className="aero-meta-val">Aeronautics and Astronautics</span>
               </div>
             </div>
 
@@ -358,7 +374,7 @@ export default function ResearchPage() {
 
           <div className="aero-right">
             <p className="aero-summary">
-              Crewed Martian exploration has long been an ambitious dream. Conventional EDL (Entry, Descent, Land) procedures rely on hypersonic entry and supersonic retropropulsion, creating g-loads and dynamic pressures incompatible with human missions. This research proposes aerobraking — multi-pass atmospheric drag deceleration — as a safer, more fuel-efficient alternative for crewed surface insertion.
+              I picked this over my earlier idea (space elevators) because it felt like something that could actually matter today. The problem with getting humans to the Martian surface is that standard EDL produces forces no living person could survive. Aerobraking uses the atmosphere itself to slow down across multiple passes. What I found was that it's meaningfully safer for astronauts and saves a significant amount of fuel in the process.
             </p>
 
             <div className="finding-box">
@@ -383,18 +399,16 @@ export default function ResearchPage() {
         </div>
       </section>
 
-      {/* Rec letter quote */}
       <div className="rec-quote">
         <div className="rec-label">Letter of Rec</div>
         <div className="rec-body">
           <p className="rec-text">
-            "Aryan's intellectual curiosity, willingness to innovate, and ability to independently troubleshoot problems set him apart — qualities I often see only in advanced undergraduate or even graduate students."
+            "Aryan's intellectual curiosity, willingness to innovate, and ability to independently troubleshoot problems set him apart. These qualities I often see only in advanced undergraduate or even graduate students."
           </p>
-          <div className="rec-attribution">Dr. Lynnane E. George, PhD · Associate Professor, Mechanical and Aerospace Engineering · University of Colorado Colorado Springs · Sept 13, 2025</div>
+          <div className="rec-attribution">Dr. Lynnane E. George (Associate Professor, Mechanical and Aerospace Engineering)</div>
         </div>
       </div>
 
-      {/* Methodology */}
       <div className="divider">
         <div className="div-label">Methodology</div>
         <div className="div-line" />
@@ -403,12 +417,12 @@ export default function ResearchPage() {
       <section className="method-section">
         <div className="method-grid">
           {[
-            { title: "Atmospheric Modeling", text: "Used NASA's MarsGRAM to model Martian atmospheric density and temperature at 100 km altitude. Compared with EarthGRAM to quantify the difference in atmospheric variability between Earth and Mars." },
-            { title: "Site Selection", text: "Identified optimal landing coordinates (40 deg E, 60 deg N) based on proximity to the equator for lower pressure, higher atmospheric density for efficient braking, and flat terrain for accessible landing." },
-            { title: "Orbital Propagation", text: "Implemented Keplerian state propagation using a 4th-order Runge-Kutta integrator — chosen over Euler's method for significantly higher accuracy — to model spacecraft position and velocity over time." },
-            { title: "Drag Modeling", text: "Differentiated state vectors with respect to time to isolate acceleration due to drag. Applied drag corrections after velocity differentiation to account for the highly elliptical orbits formed (average eccentricity of 0.73)." },
-            { title: "Multi-Pass Simulation", text: "Executed multiple atmospheric passes, recording state vectors after each pass. Applied optional retrograde delta-v at apoapsis between passes. Tracked peak-g, dynamic pressure, and cumulative delta-v reduction." },
-            { title: "Feasibility Assessment", text: "Evaluated crewed mission constraints: peak gravitational load must remain below 5g (vs. 13g for Curiosity), and dynamic pressure below safe thresholds. Confirmed aerobraking meets both constraints within 3 passes." },
+            { title: "Atmospheric Modeling", text: "I used NASA's MarsGRAM to model Martian atmospheric density and temperature at 100 km altitude. Then, I compared with EarthGRAM to see how different the two atmospheres actually are." },
+            { title: "Site Selection", text: "I picked 40°E, 60°N based on three things: close enough to the equator for lower pressure, dense enough atmosphere for real braking, and flat enough terrain to actually land on." },
+            { title: "Orbital Propagation", text: "I used online tutorial to build a 4th-order Runge-Kutta integrator for higher accuracy. Then, I tracked position and velocity state vectors across each pass." },
+            { title: "Drag Modeling", text: "First, I differentiated state vectors to isolate acceleration, then applied additional velocity for faster aerobraking." },
+            { title: "Multi-Pass Simulation", text: "Also, I ran the spacecraft through multiple atmospheric passes, recording states after each one." },
+            { title: "Feasibility Assessment", text: "Finally, I discovered that humans can't survive more than 5g while the Curiosity rover hit 13g on entry. This confirmed that aerobraking stays under the human limit within 3 passes." },
           ].map((m, i) => (
             <div className="method-card" key={i}>
               <div className="method-num">{String(i+1).padStart(2,"0")}</div>
@@ -418,13 +432,12 @@ export default function ResearchPage() {
           ))}
         </div>
       </section>
-
-      {/* Results */}
+ 
       <div className="divider">
         <div className="div-label">Key Results</div>
         <div className="div-line" />
       </div>
-
+ 
       <section className="results-section">
         <div className="results-grid">
           {[
@@ -440,20 +453,17 @@ export default function ResearchPage() {
           ))}
         </div>
       </section>
-
-      {/* Future Work */}
+ 
       <div className="divider">
         <div className="div-label">Future Work</div>
         <div className="div-line" />
       </div>
-
+ 
       <section className="future-section">
         <div className="future-list">
           {[
-            "Run a Systems Tool Kit (STK) simulation to replace assumptions on initial altitude, flight path angle, and velocity with realistic mission-derived numbers.",
-            "Assess whether current spacecraft (including Orion) can structurally withstand multiple atmospheric passes — accounting for repetitive thermal cycling, pressure fluctuations, and composite material interactions.",
-            "Integrate this aerobraking leg into the broader Earth-Mars-Ceres mission architecture, analyzing how retro delta-v budgets affect overall mission duration and crew safety.",
-            "Explore harvesting atmospheric drag as kinetic energy via turbine and thermal generators to supplement life support systems onboard a crewed spacecraft.",
+            "Run a Systems Tool Kit (STK) simulation to swap out the assumptions on initial altitude, flight path angle, and velocity for numbers that come from an actual missions and their data.",
+            "Figure out whether current spacecraft can handle multiple atmospheric passes without failing.",
           ].map((f, i) => (
             <div className="future-item" key={i}>
               <div className="future-idx">{String(i+1).padStart(2,"0")}</div>
@@ -462,14 +472,13 @@ export default function ResearchPage() {
           ))}
         </div>
       </section>
-
-      {/* IB Work */}
+ 
       <div className="divider" id="ib">
         <div className="div-label">IB Diploma Papers</div>
         <div className="div-line" />
         <div className="div-label">{String(IB_WORK.length).padStart(2,"0")} papers</div>
       </div>
-
+ 
       <section className="ib-section">
         <div className="ib-grid">
           {IB_WORK.map((item, i) => {
@@ -505,11 +514,12 @@ export default function ResearchPage() {
           })}
         </div>
       </section>
-
+ 
       <footer>
-        <p>© 2026 Aryan Tuteja · Discovery Canyon Campus · Colorado Springs, CO</p>
+        <p>Aryan Tuteja</p>
         <span className="footer-sig">What if?</span>
       </footer>
     </>
   );
 }
+ 
